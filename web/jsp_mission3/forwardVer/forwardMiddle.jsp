@@ -1,4 +1,4 @@
-<%@ page import="com.sun.corba.se.spi.protocol.RequestDispatcherDefault" %><%--
+<%@ page import="com.sun.corba.se.spi.protocol.RequestDispatcherDefault" %>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
