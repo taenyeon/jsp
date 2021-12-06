@@ -34,7 +34,7 @@
     String sql="";
 
     try {
-        String url = "jdbc:oracle:thin:@192.168.35.108:1521:xe";
+        String url = "jdbc:oracle:thin:@192.168.35.138:1521:xe";
         String user = "hr";
         String pwd = "1234";
         String driver = "oracle.jdbc.driver.OracleDriver";

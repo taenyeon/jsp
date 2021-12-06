@@ -7,15 +7,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>insertForm</title>
 	<style>
-		body{
+		form{
 			text-align: center;
-			margin: 30px;
+			margin: 20px;
 		}
 	</style>
 </head>
 <body>
-<h3>insertForm</h3>
 <form action="stuInsertPro.jsp" method="post">
+<h3>insertForm</h3>
 	no : <input type="text" id="sno" name="sno"/> <br>
 	name : <input type="text" id="sname" name="sname"/> <br>
 	age : <input type="text" id="sage" name="sage"> <br>

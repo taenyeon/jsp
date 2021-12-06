@@ -6,6 +6,7 @@
         <entry key="file://$PROJECT_DIR$/web/index.jsp" value="file://$PROJECT_DIR$/web" />
         <entry key="file://$PROJECT_DIR$/web/jdbcTest.jsp" value="file://$PROJECT_DIR$/web" />
         <entry key="file://$PROJECT_DIR$/web/jsp01/taglib.jsp" value="file://$PROJECT_DIR$/web/jsp01" />
+        <entry key="file://$PROJECT_DIR$/web/jspCrypt01/crypt/cryptProcess.jsp" value="file://$PROJECT_DIR$/web/jspCrypt01/crypt" />
       </map>
     </option>
   </component>

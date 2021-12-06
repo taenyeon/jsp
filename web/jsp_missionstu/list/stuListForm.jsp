@@ -8,9 +8,9 @@
 <head>
     <title>Title</title>
     <style>
-        body{
+        h3{
             text-align: center;
-            margin: 30px;
+            margin: 20px;
         }
         table{
             text-align: center;

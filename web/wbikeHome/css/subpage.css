@@ -1,0 +1,215 @@
+#sub_img {
+  width: 971px;
+  height: 179px;
+  background-image: url(../images/company/sub_back.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+#sub_menu {
+  width: 238px;
+  float: left;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  /* border: 1px solid #ccc; */
+}
+#sub_menu ul {
+  list-style: none;
+  margin: 20px 0 0 10px;
+}
+#sub_menu a {
+  text-decoration: none;
+  color: #666;
+  display: block;
+  height: 15px;
+  width: 150px;
+  padding: 7px;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999;
+  background-image: url(../images/bullet.gif);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+#sub_menu a:hover {
+  background-image: url(../images/bullet_orange.gif);
+  background-repeat: no-repeat;
+  background-position: right center;
+  color: #f90;
+}
+
+/* article */
+
+article {
+  border: 1px solid #ccc;
+  float: right;
+  width: 670px;
+  margin: 0 20px 0 0;
+}
+article h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+  color: #ccc;
+  margin: 20px 0;
+  font-weight: normal;
+}
+article p {
+  padding-left: 10px;
+}
+figure.ceo {
+  float: right;
+  margin: 5px;
+}
+figcaption {
+  text-align: center;
+  color: #39f;
+}
+
+/* history */
+
+article .y2011,
+article .y2010,
+article .y2009 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #999;
+  padding: 10px 0 0 150px;
+}
+
+article .y2011 h3,
+article .y2010 h3,
+article .y2009 h3 {
+  display: none;
+}
+article .y2011 {
+  background-image: url(../images/company/2011.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+article .y2010 {
+  background-image: url(../images/company/2010.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+article .y2009 {
+  background-image: url(../images/company/2009.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+article .y2011 dt,
+article .y2010 dt,
+article .y2009 dt {
+  float: left;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: #39f;
+  padding-top: 3px;
+  margin: 0;
+}
+article .y2011 dd,
+article .y2010 dd,
+article .y2009 dd {
+  padding: 0 0 0 15px;
+  line-height: 2em;
+  background-image: url(../images/company/h_bullet.gif);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+article .y2011 dl,
+article .y2010 dl,
+article .y2009 dl {
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #ccc;
+}
+article dl.dot_none {
+  border-bottom: none;
+}
+
+/* notice */
+#sub_img_center {
+  width: 971px;
+  height: 179px;
+  background-image: url(../images/center/sub_back.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+article table#notice {
+  width: 670px;
+  border-collapse: collapse;
+}
+article table#notice th {
+  height: 20px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding: 5px;
+  background-image: url(../images/center/t_back.jpg);
+  background-repeat: repeat-x;
+  background-position: center center;
+  color: #fff;
+}
+article table#notice td {
+  text-align: center;
+  padding: 6px 0;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999;
+  font-size: 0.8em;
+}
+article table#notice td.left {
+  text-align: left;
+}
+
+article th.tno {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 50px;
+}
+article th.ttitle {
+  width: 400px;
+  letter-spacing: 0.7em;
+}
+
+article th.twrite {
+  width: 100px;
+}
+article th.tdate {
+  width: 50px;
+}
+article th.tread {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 50px;
+}
+
+#table_search .input_box {
+  height: 20px;
+  width: 200px;
+  padding: 0 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+article #table_search .btn {
+  padding: 2px;
+  margin: 0 0 0 5px;
+  width: 90px;
+  height: 23px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background-image: url(../images/center/t_back.jpg);
+  color: #fff;
+  background-repeat: repeat-x;
+  background-position: center center;
+}
