@@ -18,7 +18,7 @@ public class UpdateDBBean {
     }
     private Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("oracle.jdbc.driver.OracleDriver");
-        String url = "jdbc:oracle:thin:@192.168.35.138:1521:XE";
+        String url = "jdbc:oracle:thin:@192.168.1.156:1521:XE";
         String user = "hr";
         String pw = "1234";
         return DriverManager.getConnection(url,user,pw);
@@ -82,6 +82,13 @@ public class UpdateDBBean {
                 //shaPass를 BCrypt.gensalt()를 통해서 salt난수를 이용해 hashpw 암호화
                 String bcPass = BCrypt.hashpw(shaPass,BCrypt.gensalt());
                 System.out.println("bcPass = " + bcPass);
+                //암호화한 값을 DB에 저장
+                pstmt = conn.prepareStatement("update MEMBER5 set PWD=? where ID = ?");
+
+                pstmt.setString(1,bcPass);
+                pstmt.setString(2,id);
+
+                pstmt.executeUpdate();
             }
 
         } catch (Exception e){
